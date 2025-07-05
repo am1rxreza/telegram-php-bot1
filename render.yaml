@@ -3,6 +3,5 @@ services:
     name: telegram-php-bot
     env: php
     plan: free
-    buildCommand: ""
+    buildCommand: true
     startCommand: php -S 0.0.0.0:10000
-    autoDeploy: true
